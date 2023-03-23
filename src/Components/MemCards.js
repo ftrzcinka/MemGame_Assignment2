@@ -15,7 +15,7 @@ export default function MemCards() {
         { id: 4, name: 'AltusSteps', status: '', img: '/ImageFolder/EldenRing_img5.jpg' },
         { id: 5, name: 'Stormveil', status: '', img: '/ImageFolder/EldenRing_img6.jpg' },
         { id: 5, name: 'Stormveil', status: '', img: '/ImageFolder/EldenRing_img6.jpg' }
-    ])
+    ].sort(() => Math.random() - 0.5))
 
     return (
         <div className="container">
