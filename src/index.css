@@ -10,3 +10,28 @@ h1 {
     text-align: center;
     color: rgb(255, 215, 0);
 }
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    max-width: 48rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: .7rem;
+}
+
+.card {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
