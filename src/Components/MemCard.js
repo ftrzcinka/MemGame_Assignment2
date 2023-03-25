@@ -1,8 +1,8 @@
-export default function MemCard({ card, index, key }) {
+export default function MemCard({ card, id, handleClick }) {
     const cardClass = card.stat ? " active " + card.stat : ""
 
     return (
-        <div className="card">
+        <div className={"card" + cardClass} onClick={() => handleClick(id) }>
             <img src={card.img} alt={card.name} />
         </div>
     )
