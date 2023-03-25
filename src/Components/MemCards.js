@@ -17,11 +17,49 @@ export default function MemCards() {
         { id: 5, name: 'Stormveil', status: '', img: '/ImageFolder/EldenRing_img6.jpg' }
     ].sort(() => Math.random() - 0.5))
 
+    const [prev, setPrev] = useState(-1)
+    const [checking, setChecking] = useState(0)
+
+    function check(current) {
+        if (cards[current].id == cards[prev].id) {
+            cards[current].stat = "correct"
+            cards[prev].stat = "correct"
+            setCards([...cards])
+            setPrev(-1)
+        } else {
+            cards[current].stat = "incorrect"
+            cards[prev].stat = "incorrect"
+            setCards([...cards])
+            setTimeout(() => {
+                cards[current].stat = ""
+                cards[prev].stat = ""
+                setCards([...cards])
+                setPrev(-1)
+            }, 1000)
+        }
+    }
+
+    function handleClick(id) {
+        if (checking === 0) {
+            if (prev === -1) {
+                cards[id].stat = "active"
+                setCards([...cards])
+                setPrev(id)
+            } else {
+                setChecking(1)
+                check(id)
+                setTimeout(() => {
+                    setChecking(0)
+                }, 1000)
+            }
+        }
+    }
+
     return (
         <div className="container">
             {cards.map((card, index) => {
-                return <MemCard card={card} id={index} key={index} />
-            }) }
+                return <MemCard card={card} id={index} key={index} handleClick={handleClick} />
+            })}
         </div>
     );
 }
