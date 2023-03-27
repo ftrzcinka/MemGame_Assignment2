@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/memgame_Assignment2/static/css/main.f7c02c97.css",
+    "main.js": "/memgame_Assignment2/static/js/main.1bc0a0c8.js",
+    "static/js/787.5e1704d4.chunk.js": "/memgame_Assignment2/static/js/787.5e1704d4.chunk.js",
+    "static/media/EldenRing_img5.jpg": "/memgame_Assignment2/static/media/EldenRing_img5.7a63df7e1eeaf748b2b7.jpg",
+    "static/media/EldenRing_img1.jpg": "/memgame_Assignment2/static/media/EldenRing_img1.d793f0d34040066a4598.jpg",
+    "static/media/EldenRing_img3.jpg": "/memgame_Assignment2/static/media/EldenRing_img3.6d370d903971ded70dd3.jpg",
+    "static/media/EldenRing_img6.jpg": "/memgame_Assignment2/static/media/EldenRing_img6.9fdd36eee1b53b1ad512.jpg",
+    "static/media/EldenRing_img2.jpg": "/memgame_Assignment2/static/media/EldenRing_img2.925b990386eb598f9e0f.jpg",
+    "static/media/EldenRing_img4.jpg": "/memgame_Assignment2/static/media/EldenRing_img4.38ce5a41e2a913a94361.jpg",
+    "index.html": "/memgame_Assignment2/index.html",
+    "main.f7c02c97.css.map": "/memgame_Assignment2/static/css/main.f7c02c97.css.map",
+    "main.1bc0a0c8.js.map": "/memgame_Assignment2/static/js/main.1bc0a0c8.js.map",
+    "787.5e1704d4.chunk.js.map": "/memgame_Assignment2/static/js/787.5e1704d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7c02c97.css",
+    "static/js/main.1bc0a0c8.js"
+  ]
+}
