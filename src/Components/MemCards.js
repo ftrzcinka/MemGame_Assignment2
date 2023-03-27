@@ -15,7 +15,7 @@ export default function MemCards({moveCounter, setMoveCounter, completion, setCo
         { id: 3, num: 6, name: 'Academy', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img4.jpg' },
         { id: 3, num: 7, name: 'Academy', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img4.jpg' },
         { id: 4, num: 8, name: 'AltusSteps', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img5.jpg' },
-        { id: 4, num: 9, name: 'AltusSteps', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img5.jpg5' },
+        { id: 4, num: 9, name: 'AltusSteps', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img5.jpg' },
         { id: 5, num: 10, name: 'Stormveil', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img6.jpg' },
         { id: 5, num: 11, name: 'Stormveil', status: '', img: 'https://moodyrahman.com/files/filip/EldenRing_img6.jpg' }
     ].sort(() => Math.random() - 0.5))
