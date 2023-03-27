@@ -1,2 +1,0 @@
-C:\Users\Shmaz _ Pootaz\source\repos\memgame\obj\Debug\memgame.esproj.SuggestedBindingRedirects.cache
-C:\Users\Shmaz _ Pootaz\source\repos\memgame\obj\Debug\memgame.esproj.CoreCompileInputs.cache
